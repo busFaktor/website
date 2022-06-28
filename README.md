@@ -38,6 +38,8 @@ npm run build
 npm run lint
 ```
 
+___
+
 
 ### How To Deploy to Github Pages [busfaktor.github.io/website/](https://busfaktor.github.io/website/)
 
