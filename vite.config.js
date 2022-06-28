@@ -11,4 +11,6 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  // eslint-disable-next-line no-undef
+  publicPath: process.env.NODE_ENV === "production" ? "/gh-pages/" : "/",
 });
